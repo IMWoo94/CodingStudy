@@ -8,40 +8,39 @@ package chap01.question02;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
-        int a = 0;
-        int b = 0;
-        Scanner in = new Scanner(System.in);
-        a = in.nextInt();
-        b = in.nextInt();
-        int sum = a+b;
-        resultPrint(sum);
-    }
+	public static void main(String[] args) {
+		int a = 0;
+		int b = 0;
+		Scanner in = new Scanner(System.in);
+		a = in.nextInt();
+		b = in.nextInt();
+		int sum = a + b;
+		resultPrint(sum);
+	}
 
-    public static void resultPrint(int num){
-//        // 1. System.out.println 사용
-//        System.out.println(num);
-//
-//        // 2. StringBuilder, StringBuffer 사용
-//        StringBuilder sb1 = new StringBuilder();
-//        sb1.append(num);
-//        System.out.println(sb1.toString());
-//
-//        StringBuffer sb2 = new StringBuffer();
-//        sb2.append(num);
-//        System.out.println(sb2.toString());
+	public static void resultPrint(int num) {
+		//        // 1. System.out.println 사용
+		//        System.out.println(num);
+		//
+		//        // 2. StringBuilder, StringBuffer 사용
+		//        StringBuilder sb1 = new StringBuilder();
+		//        sb1.append(num);
+		//        System.out.println(sb1.toString());
+		//
+		//        StringBuffer sb2 = new StringBuffer();
+		//        sb2.append(num);
+		//        System.out.println(sb2.toString());
 
-        // 3. BufferedWriter 사용
-        try(BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));){
-            bw.write(num +"");
-            bw.flush();
-        }catch(IOException e) {
-            e.printStackTrace();
-        }
-    }
+		// 3. BufferedWriter 사용
+		try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));) {
+			bw.write(num + "");
+			bw.flush();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 }

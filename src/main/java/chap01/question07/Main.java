@@ -8,10 +8,10 @@ package chap01.question07;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
-        StringBuilder sb = new StringBuilder(in.nextLine());
-        sb.append("??!");
-        System.out.println(sb.toString());
-    }
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		StringBuilder sb = new StringBuilder(in.nextLine());
+		sb.append("??!");
+		System.out.println(sb.toString());
+	}
 }

@@ -11,20 +11,20 @@ import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
-        int a = 0;
-        int b = 0;
-        Scanner in = new Scanner(System.in);
-        a = in.nextInt();
-        b = in.nextInt();
+	public static void main(String[] args) {
+		int a = 0;
+		int b = 0;
+		Scanner in = new Scanner(System.in);
+		a = in.nextInt();
+		b = in.nextInt();
 
-        BigDecimal ba = new BigDecimal(a);
-        BigDecimal bb = new BigDecimal(b);
-        if(b == 0 ){
-            System.out.println(0);
-            return;
-        }
-        System.out.println(ba.divide(bb, 9 ,BigDecimal.ROUND_HALF_UP));
+		BigDecimal ba = new BigDecimal(a);
+		BigDecimal bb = new BigDecimal(b);
+		if (b == 0) {
+			System.out.println(0);
+			return;
+		}
+		System.out.println(ba.divide(bb, 9, BigDecimal.ROUND_HALF_UP));
 
-    }
+	}
 }
