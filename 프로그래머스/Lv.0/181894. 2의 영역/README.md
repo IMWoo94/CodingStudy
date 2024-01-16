@@ -1,10 +1,10 @@
 # [level Lv.0] 2의 영역 - 181894 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181894?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181894?language=python3) 
 
 ### 성능 요약
 
-메모리: 93.7 MB, 시간: 15.41 ms
+메모리: 15.7 MB, 시간: 0.60 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 2일 16:57:58
+2024년 1월 2일 16:59:27
 
 ### 문제 설명
 
